@@ -1,0 +1,50 @@
+#jp-topPanel-rightArea {
+    order: 0;
+    flex: auto;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+#logout {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    margin-right: 5px;
+    margin-bottom: 1.5px;
+    margin-top: 1.5px;
+}
+
+#logout:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+#jp-MainLogo {
+    order: -1;
+}
+
+#jp-MainMenu {
+    order: -1;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 0.9;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

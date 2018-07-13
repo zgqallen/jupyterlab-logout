@@ -1,0 +1,37 @@
+{
+  "name": "@jupyterlab/logout",
+  "version": "1.0.0",
+  "description": "Show Logout Button in Jupyterlab Main Menu",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension",
+    "logout"
+  ],
+  "license": "BSD-3-Clause",
+  "author": "gary.zhong@sap.com",
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf lib",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@jupyterlab/application": "^0.16.0",
+    "@phosphor/widgets": "^1.5.0",
+    "@jupyterlab/mainmenu": "^0.6.0-0",
+    "@jupyterlab/coreutils": "^1.0.2"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "typescript": "~2.6.0"
+  },
+  "jupyterlab": {
+    "extension": true
+  }
+}
